@@ -1,4 +1,4 @@
-add_library(freeablo_lib # split into a library so I can link to it from tests
+add_library(freeablo_lib SHARED # split into a library so I can link to it from tests
     fa_main.cpp 
 
     falevelgen/levelgen.h 

@@ -246,8 +246,8 @@ namespace FARender
                     state->mPos.next().first, state->mPos.next().second, state->mPos.mDist);
             }
 
-            Render::drawGui(state->guiDrawBuffer, &mSpriteManager);
-            Renderer::setCursor(state);
+            // Render::drawGui(state->guiDrawBuffer, &mSpriteManager);
+            // Renderer::setCursor(state);
         }
         
         Render::draw();
